@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+h1{
+    text-align: center;
+}
+
+header{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    
+}
+
+body{
+    background: rgb(145, 115, 115);
+    font-style:oblique;
+}
+
+footer{
+    text-align: center;
+}
+
+#lgin{
+    border-radius: 20px;
+    background: white;
+    margin: auto;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px rgb(31, 29, 29);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: black;
+}
+
+a:hover{
+    color: gray;
+}
+

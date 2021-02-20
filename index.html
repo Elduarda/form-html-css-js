@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Login</h1>
+    </header>
+
+    <section>
+        <div id="lgin">
+            <form name="form" onsubmit="return validaFormulario()">
+                <label><strong>Usuário:</strong></label><br>
+                <input type="text" id="user"><br>
+                <label><strong>Senha: </strong></label><br>
+                <input type="password" id="senha"><br><br>
+                <input type="submit" type="submit" value="entrar">
+            </form>
+
+            <div id="links">
+                <br>
+                <a href="reset.html">Não lembra a senha?</a><br>
+                <a href="cadastro.html">Cadastre-se</a><br>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>Todos os direitos reservados</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
